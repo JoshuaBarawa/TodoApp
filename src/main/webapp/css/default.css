@@ -1,0 +1,20 @@
+
+.navbar{
+	background: #4169E1;
+	border-color: #4169E1;
+}
+
+.navbar > .container > .navbar-header > .navbar-brand{
+	font-size: x-large;
+	color: #000000;
+	
+}
+
+.navbar > .container > .navbar-header >.navbar-toggle > span{
+	background:black;
+}
+
+.navbar > .container > .navbar-collapse > .navbar-nav > li > a{
+color:black;
+font-size:medium;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>  
+ 
+ <definition name="app.default"  template="/WEB-INF/layouts/default.jsp">  
+      <put-attribute name="title" value="TodoApp" />    
+    </definition>  
+    
+ 
+    <definition name="app.homepage" extends="app.default">
+        <put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />  
+    </definition>  
+ 
+ <definition name="app.updatetodo"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/updatetodo.jsp" />  
+    </definition> 
+    
+     <definition name="app.login"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />  
+    </definition> 
+    
+      <definition name="app.logout"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/logout.jsp" />  
+    </definition> 
+    
+     <definition name="app.signup"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/signup.jsp" />  
+    </definition> 
+ 
+   <definition name="app.profile"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/profile.jsp" />  
+    </definition> 
+    
+    <definition name="app.users"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/users.jsp" />  
+    </definition> 
+ 
+   <definition name="app.reset"  extends="app.default">  
+        <put-attribute name="content" value="/WEB-INF/tiles/reset.jsp" />  
+    </definition> 
+  
+</tiles-definitions> 
